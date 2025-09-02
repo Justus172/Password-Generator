@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 344px;
+    height: 100px;
+    border:blue solid 1px;
+    background-color: #1F2937; 
+    padding: 115px 144px 355px 52px;
+    margin: 64px; 
+
+
+
+}
+
+h1 {
+    font-weight: 800px;
+    font-family: Karla, sans-serif;
+    font-size: 40px;
+    color: white;
+    width: 354px;
+    height: 80px;
+}
+
+h1 span {
+    color: #34D399; 
+}
+
+h2 {
+    color: #D5D4D8; 
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.button { 
+    color: white; 
+    background-color: #34D399; 
+    font: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#password1-el {
+    color: black;
+    background-color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
