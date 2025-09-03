@@ -3,12 +3,16 @@ body {
 }
 
 .container {
-    width: 344px;
+    width: 320px;
     height: 100px;
-    border:blue solid 1px;
+    border:none;
+    border-radius: 5px;
     background-color: #1F2937; 
-    padding: 115px 144px 355px 52px;
-    margin: 64px; 
+    padding: 100px 144px 355px 80px;
+    margin: 100px 0px 0px 430px; 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 
 
 
@@ -34,18 +38,41 @@ h2 {
     font-size: 20px;
 }
 
-.button { 
+button { 
     color: white; 
     background-color: #34D399; 
     font: Inter, sans-serif;
     font-weight: 500;
     font-size: 16px;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    border: none;
+
 }
 
-#password1-el {
-    color: black;
-    background-color: white;
+#password1-el, #password2-el {
+    color: rgb(83, 116, 177);
+    background-color: #273549;
     font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 16px;
+    border-radius: 12px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+}
+
+.passwords {
+    display: flex;
+    align-content: center;
+    gap: 15px;
+}
+
+hr {
+   margin: 20px 0px 0px 20px; 
+   border: none;
+   border-top: 1px solid rgb(72, 70, 78);
 }
